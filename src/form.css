@@ -1,0 +1,59 @@
+/* form.css */
+
+.registration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 404px;
+    margin: auto;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .registration label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .registration input[type="text"],
+  .registration input[type="date"],
+  .registration input[type="email"],
+  .registration input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .registration button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0077cc;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .error {
+    margin-top: 15px;
+    color: red;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .success {
+    margin-top: 15px;
+    color: green;
+    font-size: 14px;
+    text-align: center;
+  }
+  
